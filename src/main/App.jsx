@@ -25,6 +25,14 @@ class App extends Component {
           </Container>
         </AppBar>
         <Container maxWidth="lg">
+          <div className="app-description">
+            <Grid item xs={12}>
+              <h1>About!</h1>
+              <p>A simple app that only converts the values ​​of some currencies to currencies, according to your need. Developed using only <strong>ReactJS</strong> and <strong>Material-UI</strong>.</p>
+            </Grid>
+          </div>
+        </Container>
+        <Container maxWidth="lg">
           <div className="app">
             <Grid item xs={12}>
               <div className="app-line">

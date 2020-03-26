@@ -43,6 +43,9 @@ export default class Converter extends Component {
           this.setState({errorMessage: "hide"})
     } else {
       this.setState({errorMessage: "show"})
+      setTimeout(() => {
+        this.setState({errorMessage: "hide"})
+      }, 10000)
     }
   }
 
